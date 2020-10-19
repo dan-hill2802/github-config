@@ -1,6 +1,5 @@
 provider "github" {
   token   = var.github_token
-  owner   = var.github_organization
   version = "~> 2.6.1"
 }
 
