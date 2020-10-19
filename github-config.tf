@@ -1,7 +1,7 @@
 resource "github_repository" "github_config" {
-  name             = "github-config"
-  description      = "Manage GitHub configuration"
-  auto_init        = true
+  name        = "github-config"
+  description = "Manage GitHub configuration"
+  auto_init   = true
 
   allow_merge_commit     = false
   delete_branch_on_merge = true
