@@ -1,3 +1,14 @@
+terraform {
+  backend "remote" {
+    organization = "mamu"
+
+    workspaces {
+      name = "github-config"
+    }
+  }
+}
+
+
 provider "github" {
   token   = var.github_token
   version = "~> 3.0.0"
