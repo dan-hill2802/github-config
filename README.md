@@ -1,2 +1,2 @@
 # github-config
-Manage GitHub configuration
+Manage GitHub configuration using Terraform
